@@ -12,18 +12,6 @@ Un dashboard Streamlit interactif pour visualiser les insights.
 
 Une API FastAPI déployée sur Hugging Face avec un endpoint /predict.
 
-📂 Structure des dossiers
-Jedha_Deployment_Huggingface/
-│
-├── Data/                  # Données brutes (.csv, .xlsx)
-├── Images/                # Captures utilisées dans la doc
-├── Notebooks/             # Notebook d’analyse + entraînement du modèle
-├── API_predict/           # API FastAPI (Dockerfile, modèle .pkl, main.py)
-├── Streamlit_dashboard/   # Application Streamlit
-│
-├── requirements.txt       # Dépendances globales
-├── Dockerfile             # Dockerfile pour Hugging Face (API ou dashboard)
-└── README.md              # Documentation
 
 🚀 Déploiements en ligne
 
