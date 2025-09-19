@@ -1,2 +1,13 @@
+# Environnement virtuel
 .venv/
+Streamlit_app/.venv/
+
+# Fichiers temporaires Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers IDE
+*.idea/
+*.vscode/
