@@ -1,0 +1,41 @@
+Conversion Rate Challenge
+Prédiction de conversion pour DataScienceWeekly.org
+
+Données
+
+Variables : country, age, new_user, source, total_pages_visited
+Cible : converted (0/1)
+Observations : 284,578
+
+Méthodologie
+
+EDA : Analyse exploratoire et nettoyage
+Preprocessing : One-Hot Encoding + StandardScaler
+Modélisation : Logistic Regression, Random Forest, XGBoost
+Optimisation : GridSearch avec gestion du déséquilibre
+
+Résultats
+Meilleur modèle : Logistic Regression
+
+F1-Score : 77.1%
+Precision : 80%
+Recall : 73%
+
+Variables importantes :
+
+total_pages_visited (+2.54)
+country_Germany (+3.72)
+new_user (-1.71)
+
+Recommandations
+
+Cibler l'Allemagne, UK et USA
+Améliorer l'onboarding des nouveaux utilisateurs
+Inciter à visiter plus de pages
+
+Installation
+bashpip install -r requirements.txt
+Utilisation
+
+Ouvrir les notebooks Jupyter
+Exécuter dans l'ordre : EDA puis Models
