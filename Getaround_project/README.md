@@ -15,7 +15,7 @@ Une API FastAPI déployée sur Hugging Face avec un endpoint /predict.
 
 🚀 Déploiements en ligne
 
-🌐 Dashboard (Streamlit) : (https://BOUMRAR-Getaround-dashboard.hf.space)
+🌐 Dashboard (Streamlit) : https://huggingface.co/spaces/BOUMRAR/Getaround-delay-dashboard
 
 ⚡ API (FastAPI) : (https://BOUMRAR-Getaround-api.hf.space)
 
